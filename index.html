@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Saad Belmekki — Développeur Web</title>
+<meta name="description" content="Portfolio de Saad Belmekki, développeur web freelance basé à Oujda, Maroc.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bg-grid"></div>
+<div class="bg-glow"></div>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="#top" class="logo">SB<span class="dot">.</span></a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#about" data-i18n="nav-about">À propos</a>
+      <a href="#skills" data-i18n="nav-skills">Compétences</a>
+      <a href="#experience" data-i18n="nav-experience">Expérience</a>
+      <a href="#projects" data-i18n="nav-projects">Projets</a>
+      <a href="#education" data-i18n="nav-education">Formation</a>
+      <a href="#contact" data-i18n="nav-contact">Contact</a>
+    </nav>
+
+    <div class="header-actions">
+      <button id="lang-toggle" class="lang-toggle" aria-label="Toggle language">
+        <span class="lang-fr active">FR</span><span class="lang-sep">/</span><span class="lang-en">EN</span>
+      </button>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero container">
+    <div class="hero-text reveal">
+      <p class="eyebrow" data-i18n="hero-eyebrow">Développeur Web Freelance</p>
+      <h1>Saad <span class="accent">Belmekki</span></h1>
+      <p class="hero-tagline" data-i18n="hero-tagline">Je conçois et développe des sites web sur mesure — du front-end soigné aux intégrations full-stack avec IA, paiements et automatisation.</p>
+
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary" data-i18n="hero-cta-contact">Me contacter</a>
+        <a href="CV_Saad_Belmekki.pdf" class="btn btn-outline" download data-i18n="hero-cta-cv">Télécharger le CV</a>
+      </div>
+
+      <div class="hero-meta">
+        <a href="mailto:belmekkisaad1@gmail.com" class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M4 4h16v16H4z"/><path d="m4 4 8 8 8-8"/></svg>
+          belmekkisaad1@gmail.com
+        </a>
+        <a href="tel:+212661520174" class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1.1.4 2.2.8 3.2a2 2 0 0 1-.4 2.1L8.1 10.4a16 16 0 0 0 6 6l1.4-1.4a2 2 0 0 1 2.1-.4c1 .4 2.1.7 3.2.8a2 2 0 0 1 1.7 2Z"/></svg>
+          +212 661 520 174
+        </a>
+        <span class="meta-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span data-i18n="hero-location">Oujda, Maroc</span>
+        </span>
+      </div>
+    </div>
+
+    <div class="hero-photo reveal">
+      <div class="photo-frame">
+        <img src="assets/photo.jpg" alt="Saad Belmekki" onerror="this.parentElement.classList.add('no-photo')">
+        <div class="photo-fallback">SB</div>
+      </div>
+      <span class="badge-available">
+        <span class="pulse"></span>
+        <span data-i18n="hero-available">Disponible pour missions freelance</span>
+      </span>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section container reveal">
+    <h2 class="section-title"><span class="tag" data-i18n="about-tag">01. Profil</span></h2>
+    <p class="about-text" data-i18n="about-text">
+      Professionnel technique rigoureux et sérieux, je place la discipline et la responsabilité au cœur de mon engagement.
+      Orienté vers l'efficacité et le respect des normes, je m'adapte avec intégrité aux environnements exigeants pour
+      garantir des résultats fiables.
+    </p>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section container reveal">
+    <h2 class="section-title"><span class="tag" data-i18n="skills-tag">02. Compétences</span></h2>
+
+    <div class="skills-grid">
+      <div class="skill-card">
+        <h3 data-i18n="skill-web-title">Développement Web</h3>
+        <div class="pills">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Angular</span><span>React</span><span>Vue 3</span><span>WordPress</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3 data-i18n="skill-db-title">Bases de données</h3>
+        <div class="pills">
+          <span>MySQL</span><span>SQL Server</span><span>Supabase</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3 data-i18n="skill-auto-title">Automatisation & Intégrations</h3>
+        <div class="pills">
+          <span>n8n</span><span>Stripe</span><span>APIs IA</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3 data-i18n="skill-office-title">Bureautique</h3>
+        <div class="pills">
+          <span>Word</span><span>Excel</span><span>PowerPoint</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3 data-i18n="skill-adobe-title">Adobe</h3>
+        <div class="pills">
+          <span>Photoshop</span><span>Illustrator</span>
+        </div>
+      </div>
+      <div class="skill-card">
+        <h3 data-i18n="skill-av-title">Production Audio-Visuelle</h3>
+        <div class="pills">
+          <span data-i18n="skill-av-1">Montage vidéo</span><span data-i18n="skill-av-2">Mixage audio</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="languages-row">
+      <div class="lang-item">
+        <div class="lang-label"><span data-i18n="lang-fr-label">Français</span><span data-i18n="lang-fr-level">Courant</span></div>
+        <div class="lang-bar"><span style="width:100%"></span></div>
+      </div>
+      <div class="lang-item">
+        <div class="lang-label"><span data-i18n="lang-en-label">Anglais</span><span data-i18n="lang-en-level">Professionnel</span></div>
+        <div class="lang-bar"><span style="width:75%"></span></div>
+      </div>
+      <div class="lang-item">
+        <div class="lang-label"><span data-i18n="lang-ar-label">Arabe</span><span data-i18n="lang-ar-level">Langue maternelle</span></div>
+        <div class="lang-bar"><span style="width:100%"></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section container reveal">
+    <h2 class="section-title"><span class="tag" data-i18n="exp-tag">03. Expérience</span></h2>
+
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3 data-i18n="exp1-role">Développeur Web Freelance</h3>
+            <span class="timeline-date" data-i18n="exp1-date">2022 — Aujourd'hui</span>
+          </div>
+          <p class="timeline-org">sdbmlkk.com · Oujda, Maroc</p>
+          <ul>
+            <li data-i18n="exp1-b1">Conception et développement de sites web personnalisés</li>
+            <li data-i18n="exp1-b2">Optimisation SEO et gestion des campagnes</li>
+            <li data-i18n="exp1-b3">Maintenance et mise à jour régulière</li>
+          </ul>
+
+          <div class="key-project">
+            <p class="key-project-label" data-i18n="exp1-key-label">Projet clé</p>
+            <p class="key-project-title">pathtogermany.de <span data-i18n="exp1-key-desc">— plateforme d'accompagnement à l'émigration des Marocains en Allemagne</span></p>
+            <ul>
+              <li data-i18n="exp1-key-b1">Développement full-stack (Vue 3, Netlify Functions, Supabase, Stripe) intégrant des fonctionnalités IA (révision de CV, lettres de motivation, simulations d'entretien, correction d'examens d'allemand)</li>
+              <li data-i18n="exp1-key-b2">Gestion des abonnements Stripe et de l'interface bilingue arabe/anglais du site</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3 data-i18n="exp2-role">Stage — Agent Commercial</h3>
+            <span class="timeline-date" data-i18n="exp2-date">Janvier — Février 2026</span>
+          </div>
+          <p class="timeline-org">ONCF · Oujda</p>
+          <ul>
+            <li data-i18n="exp2-b1">Contrôle : gestion des recettes voyageurs et contrôle de l'accès aux quais</li>
+            <li data-i18n="exp2-b2">Accueil et information : renseignement des clients sur les horaires et tarifs ONCF</li>
+            <li data-i18n="exp2-b3">Contribution à l'augmentation du chiffre d'affaires de la gare</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3 data-i18n="exp3-role">Technicien en Production Audio-Visuelle</h3>
+            <span class="timeline-date">2021 — 2022</span>
+          </div>
+          <p class="timeline-org">Nal's Studio · Oujda</p>
+          <ul>
+            <li data-i18n="exp3-b1">Mixage audio et montage vidéo</li>
+            <li data-i18n="exp3-b2">Production de contenu de haute qualité</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3 data-i18n="exp4-role">Gérant</h3>
+            <span class="timeline-date">2020 — 2021</span>
+          </div>
+          <p class="timeline-org">Parfum H.S · Oujda</p>
+          <ul>
+            <li data-i18n="exp4-b1">Gestion des ventes, des stocks et du personnel</li>
+            <li data-i18n="exp4-b2">Développement de stratégies commerciales</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-head">
+            <h3 data-i18n="exp5-role">Responsable E-commerce Local</h3>
+            <span class="timeline-date">2019 — 2020</span>
+          </div>
+          <p class="timeline-org">Princesse Boutique · Driouche</p>
+          <ul>
+            <li data-i18n="exp5-b1">Gestion de la boutique en ligne (produits, stocks, clients)</li>
+            <li data-i18n="exp5-b2">Élaboration de stratégies de vente en ligne</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section container reveal">
+    <h2 class="section-title"><span class="tag" data-i18n="projects-tag">04. Projets</span></h2>
+
+    <div class="project-links">
+      <a href="https://sdbmlkk.com" target="_blank" rel="noopener" class="project-link">
+        <div>
+          <h3>sdbmlkk.com</h3>
+          <p data-i18n="project1-desc">Site freelance — conception de sites web personnalisés</p>
+        </div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M8 7h9v9"/></svg>
+      </a>
+      <a href="https://pathtogermany.de" target="_blank" rel="noopener" class="project-link">
+        <div>
+          <h3>pathtogermany.de</h3>
+          <p data-i18n="project2-desc">Plateforme d'accompagnement à l'émigration vers l'Allemagne (Vue 3, IA, Stripe)</p>
+        </div>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M7 17 17 7M8 7h9v9"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section container reveal">
+    <h2 class="section-title"><span class="tag" data-i18n="education-tag">05. Formation</span></h2>
+
+    <div class="edu-list">
+      <div class="edu-item">
+        <span class="edu-date">2024</span>
+        <div>
+          <h3 data-i18n="edu1-title">Diplôme de Technicien Spécialisé — Développement Informatique</h3>
+          <p>OFPPT — Centre Mixte de Formation Professionnelle, Oujda</p>
+        </div>
+      </div>
+      <div class="edu-item">
+        <span class="edu-date">2018</span>
+        <div>
+          <h3 data-i18n="edu2-title">Études en Télécommunications</h3>
+          <p>Technopole, Oujda</p>
+        </div>
+      </div>
+      <div class="edu-item">
+        <span class="edu-date">2017</span>
+        <div>
+          <h3 data-i18n="edu3-title">Baccalauréat — Sciences de la Vie et de la Terre (SVT)</h3>
+          <p>Lycée Riyad, Oujda</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section container reveal">
+    <h2 class="section-title"><span class="tag" data-i18n="contact-tag">06. Contact</span></h2>
+    <div class="contact-box">
+      <h3 data-i18n="contact-heading">Discutons de votre projet</h3>
+      <p data-i18n="contact-text">Disponible pour des missions freelance en développement web. N'hésitez pas à me contacter.</p>
+      <div class="contact-links">
+        <a href="mailto:belmekkisaad1@gmail.com" class="btn btn-primary">belmekkisaad1@gmail.com</a>
+        <a href="tel:+212661520174" class="btn btn-outline">+212 661 520 174</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Saad Belmekki</p>
+    <p data-i18n="footer-location">Hay El Qods, Oujda, Maroc</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
