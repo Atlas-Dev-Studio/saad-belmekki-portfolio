@@ -39,8 +39,13 @@ const translations = {
     "exp1-b3": "Maintenance et mise à jour régulière",
     "exp1-key-label": "Projet clé",
     "exp1-key-desc": "— plateforme d'accompagnement à l'émigration des Marocains en Allemagne",
-    "exp1-key-b1": "Développement full-stack (Vue 3, Netlify Functions, Supabase, Stripe) intégrant des fonctionnalités IA (révision de CV, lettres de motivation, simulations d'entretien, correction d'examens d'allemand)",
+    "exp1-key-b1": "Développement web full-stack (Netlify Functions, Supabase, Stripe) intégrant des fonctionnalités IA (révision de CV, lettres de motivation, simulations d'entretien, correction d'examens d'allemand)",
     "exp1-key-b2": "Gestion des abonnements Stripe et de l'interface bilingue arabe/anglais du site",
+
+    "exp1-key2-label": "Projet clé",
+    "exp1-key2-desc": "— plateforme éducative de test logiciel",
+    "exp1-key2-b1": "Conception et développement web d'une plateforme publique d'apprentissage du testing logiciel (architecture par composants, navigation multi-pages) pour un ingénieur test, incluant plus de 80 articles structurés (certifications ISTQB, types et techniques de test, outils comme Selenium, Playwright, Cypress, Robot Framework)",
+    "exp1-key2-b2": "Création d'outils interactifs (bac à sable de test d'API, simulateur de localisation d'éléments web) et déploiement/maintenance via GitHub Pages",
 
     "exp2-role": "Stage — Agent Commercial",
     "exp2-date": "Janvier — Février 2026",
@@ -62,7 +67,8 @@ const translations = {
 
     "projects-tag": "04. Projets",
     "project1-desc": "Site freelance — conception de sites web personnalisés",
-    "project2-desc": "Plateforme d'accompagnement à l'émigration vers l'Allemagne (Vue 3, IA, Stripe)",
+    "project2-desc": "Plateforme d'accompagnement à l'émigration vers l'Allemagne (IA, Stripe)",
+    "project3-desc": "Plateforme éducative de test logiciel — 80+ articles, outils interactifs (ISTQB, Selenium, Playwright, Cypress)",
 
     "education-tag": "05. Formation",
     "edu1-title": "Diplôme de Technicien Spécialisé — Développement Informatique",
@@ -115,8 +121,13 @@ const translations = {
     "exp1-b3": "Regular maintenance and updates",
     "exp1-key-label": "Key project",
     "exp1-key-desc": "— a support platform for Moroccans emigrating to Germany",
-    "exp1-key-b1": "Full-stack development (Vue 3, Netlify Functions, Supabase, Stripe) with AI features (CV review, cover letters, interview simulations, German exam correction)",
+    "exp1-key-b1": "Full-stack web development (Netlify Functions, Supabase, Stripe) with AI features (CV review, cover letters, interview simulations, German exam correction)",
     "exp1-key-b2": "Managed Stripe subscriptions and the site's bilingual Arabic/English interface",
+
+    "exp1-key2-label": "Key project",
+    "exp1-key2-desc": "— an educational software testing platform",
+    "exp1-key2-b1": "Designed and built a public software-testing learning platform (component-based architecture, multi-page navigation) for a test engineer, including 80+ structured articles (ISTQB certifications, test types and techniques, tools like Selenium, Playwright, Cypress, Robot Framework)",
+    "exp1-key2-b2": "Built interactive tools (API testing sandbox, web element locator simulator) and deployed/maintained via GitHub Pages",
 
     "exp2-role": "Internship — Commercial Agent",
     "exp2-date": "January — February 2026",
@@ -138,7 +149,8 @@ const translations = {
 
     "projects-tag": "04. Projects",
     "project1-desc": "Freelance site — custom website design and development",
-    "project2-desc": "Support platform for emigration to Germany (Vue 3, AI, Stripe)",
+    "project2-desc": "Support platform for emigration to Germany (AI, Stripe)",
+    "project3-desc": "Educational software testing platform — 80+ articles, interactive tools (ISTQB, Selenium, Playwright, Cypress)",
 
     "education-tag": "05. Education",
     "edu1-title": "Specialized Technician Diploma — Computer Development",
